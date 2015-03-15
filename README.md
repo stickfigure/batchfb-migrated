@@ -43,3 +43,7 @@ User ivan = batcher.graph("ivan", User.class).get();
 For a more novice-friendly Java interface to Facebook, try [RestFB](http://www.restfb.com).
 
 Now, read the [UserGuide](UserGuide.md).
+
+You may also be interested in the [ReleaseNotes](ReleaseNotes.md).
+
+GWT users should [read this](BatchFBWithGWT.md).
