@@ -10,7 +10,7 @@ BatchFB is a Java library that provides a power-user's interface to Facebook's G
 
 Additional bonus for Google App Engine users:  Oversized batches are automatically split and executed in parallel, rather than serially.  GAE is not required to use BatchFB.
 
-Before you read the UserGuide, here is a quick example:
+Before you read the [UserGuide](UserGuide.md), here is a quick example:
 
 ```java
 /** You write your own Jackson user mapping for the pieces you care about */
@@ -42,4 +42,4 @@ User ivan = batcher.graph("ivan", User.class).get();
 **Note**:  BatchFB requires that you understand both the Facebook API and Jackson's [annotation-based configuration](http://wiki.fasterxml.com/JacksonAnnotations).
 For a more novice-friendly Java interface to Facebook, try [RestFB](http://www.restfb.com).
 
-Now, read the UserGuide.
+Now, read the [UserGuide](UserGuide.md).
